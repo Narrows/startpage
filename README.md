@@ -2,7 +2,9 @@
 
 Super cool startpage.
 
-![img](http://i.imgur.com/Etst3YH.jpg)
+![img](http://i.imgur.com/HGHWrxa.jpg)
+
+> `ubuns` = hostname of machine where generated
 
 ## Usage
 
@@ -71,3 +73,4 @@ make
 ```
 
 > Creates an `index.html` in directory
+> Does not account for config changes (yet)

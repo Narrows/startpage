@@ -20,10 +20,15 @@ python3 startpage.py > ~/start.html
 
 #### Customization
 
+Pass a custom config path:
+
 ```
 python3 startpage.py --configpath ~/start_config.json > ~/start.html
+```
 
-// ex. ~/start_config.json
+config example
+
+```json
 {
   "links": [
     {

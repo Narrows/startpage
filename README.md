@@ -12,11 +12,11 @@ python3 startpage.py > ~/start.html
 
 ## Deets
 
-Deps:
+#### Deps
 
 - python3
 
-Customization:
+#### Customization
 
 ```
 python3 startpage.py --configpath ~/start_config.json > ~/start.html
@@ -50,6 +50,10 @@ python3 startpage.py --configpath ~/start_config.json > ~/start.html
 }
 ```
 
-## Deps
+#### Test
 
-- python3
+```
+make
+```
+
+> Creates an `index.html` in directory

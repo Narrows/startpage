@@ -12,6 +12,13 @@ python3 startpage.py > ~/start.html
 
 > [chrome extension to set new tab page](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna)
 
+Some keybinds exist:
+
+- `/` : focus search
+- `j` : down a link
+- `k` : up a link
+- `enter` : if on link go to it. if search focused and no value, defocus to enable `j` and `k`
+
 ## Deets
 
 #### Deps

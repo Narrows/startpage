@@ -33,6 +33,12 @@ Pass a custom config path:
 python3 startpage.py --configpath ~/start_config.json > ~/start.html
 ```
 
+A shortcut exists in the `Makefile` that does exactly this
+
+```
+make custom
+```
+
 config example
 
 ```json

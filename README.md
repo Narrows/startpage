@@ -1,7 +1,5 @@
 # startpage
 
-Super cool startpage.
-
 ![img](http://i.imgur.com/HGHWrxa.jpg)
 
 > `ubuns` = hostname of machine where generated
@@ -74,3 +72,9 @@ make
 
 > Creates an `index.html` in directory
 > Does not account for config changes (yet)
+
+#### Ideas
+
+- [ ] configure colors
+- [ ] configure link keybinds
+- [ ] configure group keybinds (open in new window)

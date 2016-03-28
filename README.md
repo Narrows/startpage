@@ -10,6 +10,8 @@ Super cool startpage.
 python3 startpage.py > ~/start.html
 ```
 
+> [chrome extension to set new tab page](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna)
+
 ## Deets
 
 #### Deps

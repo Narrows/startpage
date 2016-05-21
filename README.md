@@ -45,6 +45,8 @@ config example
 
 ```json
 {
+  "fg_color": "#FCEF48",
+  "bg_color": "#3A363D",
   "links": [
     {
       "name": "watch",

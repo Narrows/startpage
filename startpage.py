@@ -6,6 +6,8 @@ import string
 import argparse
 
 TPLS = {}
+DEFAULT_COLOR_FG = '#efefef'
+DEFAULT_COLOR_BG = '#333'
 
 def build_tpl(path, data):
     if path is None:
@@ -60,8 +62,8 @@ def parse_links(links_config):
 
 def print_index(config):
     css_data = {
-        'fg': '#efefef',
-        'body_background': '#333',
+        'fg': config.get('fg_color', DEFAULT_COLOR_FG),
+        'body_background': config.get('bg_color', DEFAULT_COLOR_BG),
     }
 
     css_content = build_tpl('tpl/styles.css', css_data)

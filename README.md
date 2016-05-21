@@ -39,7 +39,7 @@ A shortcut exists in the `Makefile` that does exactly this
 make custom
 ```
 
-Make sure to copy config.json to ~/startconfig.json
+Make sure to copy `config.json` to `~/start_config.json`
 
 config example
 

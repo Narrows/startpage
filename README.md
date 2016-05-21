@@ -45,7 +45,6 @@ config example
 {
   "links": [
     {
-      "type": "link_list",
       "name": "watch",
       "data": [
           [ "https://vimeo.com", "vimeo" ],
@@ -53,14 +52,12 @@ config example
       ]
     },
     {
-      "type": "link_list",
       "name": "read",
       "data": [
           [ "https://reddit.com", "reddit" ]
       ]
     },
     {
-      "type": "link_list",
       "name": "buy",
       "data": [
           [ "https://amazon.com", "amazon" ]
